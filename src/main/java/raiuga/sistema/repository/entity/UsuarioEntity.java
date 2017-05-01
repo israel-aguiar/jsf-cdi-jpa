@@ -1,4 +1,4 @@
-package raiuga.sistema.entity;
+package raiuga.sistema.repository.entity;
 
 import java.io.Serializable;
 

@@ -4,8 +4,8 @@ import java.io.Serializable;
 
 import javax.persistence.Query;
 
-import raiuga.sistema.entity.UsuarioEntity;
 import raiuga.sistema.model.UsuarioModel;
+import raiuga.sistema.repository.entity.UsuarioEntity;
 import raiuga.sistema.util.Util;
 
 public class UsuarioRepository implements Serializable {

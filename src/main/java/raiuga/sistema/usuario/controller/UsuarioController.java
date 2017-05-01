@@ -9,9 +9,9 @@ import javax.inject.Named;
 
 import org.apache.commons.lang3.StringUtils;
 
-import raiuga.sistema.entity.UsuarioEntity;
 import raiuga.sistema.model.UsuarioModel;
 import raiuga.sistema.repository.UsuarioRepository;
+import raiuga.sistema.repository.entity.UsuarioEntity;
 import raiuga.sistema.util.Util;
 
 @Named(value = "usuarioController")
