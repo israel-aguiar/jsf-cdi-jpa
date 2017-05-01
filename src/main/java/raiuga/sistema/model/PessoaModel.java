@@ -1,9 +1,15 @@
 package raiuga.sistema.model;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
-public class PessoaModel {
+public class PessoaModel implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
 	private Integer codigo;
 	private String nome;
 	private String sexo;
