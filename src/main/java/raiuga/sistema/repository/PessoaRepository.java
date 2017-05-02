@@ -130,4 +130,18 @@ public class PessoaRepository {
 
 		entityManager.merge(pessoaEntity);
 	}
+	
+	/***
+	 * EXCLUI UM REGISTRO DO BANCO DE DADOS
+	 * 
+	 * @param codigo
+	 */
+	public void excluirRegistro(int codigo) {
+
+		entityManager = Util.JpaEntityManager();
+
+		PessoaEntity pessoaEntity = this.getPessoa(codigo);
+
+		entityManager.remove(pessoaEntity);
+	}
 }
